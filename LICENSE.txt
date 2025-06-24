@@ -1,0 +1,19 @@
+ELASTIC LICENSE 2.0
+
+This software is licensed under the Elastic License 2.0.
+
+You may not use the software except in compliance with the Elastic License 2.0.
+You may obtain a copy of the Elastic License 2.0 at:
+
+    https://www.elastic.co/licensing/elastic-license
+
+The software is copyrighted by Goods Unite Us.
+
+Summary of key terms:
+- You can use, copy, modify, and distribute the software, with limitations.
+- You may not provide the software to others as a managed service (e.g., SaaS).
+- You may not circumvent any licensing or usage restrictions.
+
+This license is intended to protect the software from unauthorized commercial hosting while supporting open collaboration and development.
+
+See the full license for details.

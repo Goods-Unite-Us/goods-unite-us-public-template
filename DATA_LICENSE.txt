@@ -1,0 +1,27 @@
+DATA LICENSE AND USE POLICY
+
+This data is proprietary and provided by Goods Unite Us, subject to the following terms and restrictions.
+
+IMPORTANT NOTICE:
+The data may include or be derived from personal information, including potentially identifiable information (PII) and sensitive data relating to users' political preferences and interactions. As such, the data is considered confidential and is not intended for redistribution, use, or analysis by third parties.
+
+PERMITTED USE:
+- No public or private use of this data is permitted outside of Goods Unite Us.
+- The data may not be accessed, downloaded, stored, analyzed, or transferred by any third party without a formal, written agreement with Goods Unite Us.
+
+RESTRICTED USE:
+- You may not scrape, extract, download, or store this data in bulk or in part.
+- You may not repackage, resell, or use the data to build, train, or benchmark models or services.
+- You may not use the data to infer, derive, or analyze user behavior or political affiliation.
+
+DATA SHARING:
+- Any requests to use, license, or analyze the data must be made in writing.
+- Prior to any release of data, Goods Unite Us will review the request and may require a legally binding data use agreement.
+- If approved, the data will be scrubbed of PII and anonymized before release.
+
+ENFORCEMENT:
+Violation of these terms may result in termination of access, legal action, and/or regulatory notification.
+Goods Unite Us reserves all rights to protect its data, users, and intellectual property.
+
+CONTACT:
+For inquiries, licensing requests, or legal questions, contact: legal@goodsuniteus.com
