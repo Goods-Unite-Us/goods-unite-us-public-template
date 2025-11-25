@@ -1,0 +1,32 @@
+# Language specific
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Google Cloud
+credentials.json
+application_default_credentials.json
+service-account-*.json
+
+# Logs
+logs/
+*.log
+
+# Other, create new sections as needed

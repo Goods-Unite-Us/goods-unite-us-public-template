@@ -1,0 +1,52 @@
+# .github/workflows/ci.yml
+name: CI Template
+run-name: CI Workflow Template
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  build-and-test:
+    # Set a timeout and use smaller runners when possible to avoid incurring unnecessary fees. Large runners are not available on the free plan
+    # https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-actions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install -g bats
+
+      - name: Build
+        run: echo Build the app - Implement me
+
+      #     This should at least include some basic command to ensure the build is successful. Ideally we will have some kind of automated tests at some point
+      - name: Test
+        run: |
+          echo Test the app -  - Implement me
+          bats -v
+
+      #     These should always be run and by default will use tools provided by GitHub
+      - name: Static Code Analysis (CodeQL)
+        run: echo Run the static code scanner - Implement me
+
+      - name: Vulnerability Scanning (Dependabot)
+        run: echo Run the vulnerability scanner - Implement me
+
+      #     The following steps will need to be configured in each repo and may not always apply
+      - name: Linting
+        run: echo Run the code linter - Implement me
+
+      - name: Format Checking
+        run: echo Run the code format checker - Implement me
